@@ -1,5 +1,7 @@
 # React Blog
 
+[프로젝트 페이지 바로 가기](https://seohee3478.github.io/react-blog/)
+
 ## 현재 브랜치 셋팅 정보
 
 1. `npx create-react-app ./` : 해당 폴더에 React 설치
