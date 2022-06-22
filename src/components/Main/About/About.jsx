@@ -23,22 +23,22 @@ export default function About(props) {
                 <ul class="sns">
                     <li>
                         <a href="#">
-                            <img src="../../../assets/Facebook.svg" alt="Facebook" />
+                            <img src={require(`../../../assets/Facebook.svg`).default} alt="Facebook" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../../assets/Twitter.svg" alt="Twitter" />
+                            <img src={require(`../../../assets/Twitter.svg`).default} alt="Twitter" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../../assets/Instagram.svg" alt="Instagram" />
+                            <img src={require(`../../../assets/Instagram.svg`).default} alt="Instagram" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../../../assets/Github.svg" alt="GitHub" />
+                            <img src={require(`../../../assets/Github.svg`).default} alt="Github" />
                         </a>
                     </li>
                 </ul>

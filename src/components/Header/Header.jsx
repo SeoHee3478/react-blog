@@ -12,7 +12,7 @@ export default function Header(props) {
                 <div class="max-width" >
                     <h1>
                         <a href="./">
-                            <img src="../../assets/Logo.svg" alt="My Blog" />
+                            <img src={require(`../../assets/Logo.svg`).default} alt="My Blog"/>
                         </a>
                     </h1>
                     <ul>

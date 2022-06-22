@@ -10,13 +10,13 @@ export default function Login(props) {
             </li>
             <li>
                 <a href="#" class="button">
-                    <img src="../../assets/icon-modify-white.svg" alt="" />
+                    <img src={require(`../../assets/icon-modify-white.svg`).default} alt="" />
                     <span>Write</span>
                 </a>
             </li>
             <li>
                 <button class="button white">
-                    <img src="../../assets/icon-logout.svg" alt="" />
+                    <img src={require(`../../assets/icon-logout.svg`).default} alt="" />
                     <span>Logout</span>
                 </button>
             </li>
