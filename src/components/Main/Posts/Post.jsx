@@ -8,7 +8,7 @@ export default function Post(props) {
             <ul>
                 <a href="post-view.html" class="post">
                     <article>
-                        <img src="../../../../public/assets/post-img5.jpg" alt="" />
+                        <img src={'./assets/post-img1.jpg'} alt="" />
                         <div class="contents-wrap">
                             <Category/>
                             <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit</h3>
