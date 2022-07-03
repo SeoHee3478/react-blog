@@ -13,10 +13,10 @@ export default function Main(props) {
     return (
         <div>
             <main>
-                <div class="max-width">
+                
                 <Posts/>
                 <About/>
-                </div>
+             
             </main>
         </div>
     );
